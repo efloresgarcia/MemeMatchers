@@ -1,0 +1,55 @@
+
+body{
+    background-image: url('../images/backgroundindex.jpg');
+    fill: none;
+    height: 1000px;
+    font-family: "pf-uniform", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    justify-content: center;
+  text-align: center;
+  
+   
+  }
+ 
+.navmain{
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  
+
+
+}
+.gameOne{
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+}
+
+.gameTwo{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within the body element */
+  justify-content: center;
+
+}
+
+.gameThree{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within the body element */
+  justify-content: center;
+
+
+
+}
+canvas{
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally within the body element */
+  justify-content: center;
+  
+}
