@@ -77,7 +77,7 @@ let mouseInteracted = false;
 let countdown = gameTime;
 
 function setup() {
-  createCanvas(600, 400);
+  createCanvas(700, 500);
   resetGame();
 
   const resetButton = createButton("Reset");

@@ -9,7 +9,6 @@ body{
     text-align: center;
     font-size: 50px;
     justify-content: center;
-    text-align: center;
     color: snow;
   
    
@@ -20,37 +19,53 @@ body{
   display: flex;
   justify-content: center;
   
-
-
-}
-.gameOne{
-  display: flex;
-  flex-direction: column;
-  align-items: center; 
-  justify-content: center;
 }
 
-.gameTwo{
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally within the body element */
-  justify-content: center;
-
-}
-
-.gameThree{
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally within the body element */
-  justify-content: center;
-
-
-
-}
 canvas{
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Center horizontally within the body element */
-  justify-content: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 500px;
+
+}
+
+
+.title{
+  font-size:100px;
+  margin: auto;
+  margin: auto;
+  margin-top: 150px;
   
+
+}
+
+a:hover{
+  background-color: springgreen;
+  
+}
+
+.humanText{
+  display: flexbox;
+  flex-direction: column;
+  columns: 2;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.humanText2{
+  display: flexbox;
+  flex-direction: column;
+  columns: 1;
+  flex: auto;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  margin-left: 1850px;
+  margin-top: 150px;
+
+}
+
+p:hover{
+  background-color:springgreen ;
 }
